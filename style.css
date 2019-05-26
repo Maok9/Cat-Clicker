@@ -1,0 +1,55 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgba(197, 104, 17, 0.74);
+}
+.container {
+    position: absolute;
+    top: 120px;
+    width: 500px;
+    height: 523px;
+    display: block;
+    background-image: url('img/space.png');
+    border: 3px solid rgb(20, 20, 20); 
+}
+h1{
+    text-align: center;
+    color: white;
+}
+#cat img{
+     width: 300px;
+}
+#cat p{
+    position: absolute;
+    left: 130px;
+    transform: rotate(20deg);
+    font-size: 20px;
+    font-style: oblique;  
+    font-weight: bold;  
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent;
+}
+#cat{
+    position: absolute;
+    right: 0px;
+    top: 260px; 
+}
+#cat2 img{
+    width: 200px;
+}
+#cat2 p{
+    position: absolute;
+    left: 90px;
+    bottom:150px;
+    transform: rotate(-20deg);
+    font-size: 20px;
+    font-style: oblique;  
+    font-weight: bold;  
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+    color: transparent; 
+}
+#cat2{
+    position: absolute;
+    top: 350px;
+}
